@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<style>
+		body{
+			text-align: center;
+		} 
+		
+
+	</style>
+</head>
+<body>
+	<script src="ms.js"></script>
+	<div id="alerm" style="background-color: #ddd;">No question to get answer</div>
+	<div id='art'>
+		<br><br><br>
+	</div>
+	<div id="con">
+		<div id="ai" class='demo'>
+			<button type="button" onclick="ai()"></button>
+			<div id="ml" class='demo'>
+				<button type="button" onclick="ml()"></button>
+				<div id="nn" class='demo'>
+					<button type="button" onclick="nn()"></button>
+					</button>
+					<div id="dl" class='demo'>
+						<button type="button" onclick="dl()">
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript"> 
+		function dl(){
+		document.getElementById('art').innerHTML='"Deep Neural Network" or "Deep Learning" 							is the state where							there is many layer in neural network<br><br>'
+  }
+  function ai(){
+  	document.getElementById('art').innerHTML='"Artificial intelligence"  is the simulation of human intelligence processes by machines, especially computer systems <br><br>'
+  }
+  function ml(){
+  	document.getElementById('art').innerHTML='"Machine Learning" is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed'
+  }
+  function nn(){
+  	document.getElementById('art').innerHTML='"Neural Network" is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates'
+  }
+
+	</script>
+</body>
+</html>
